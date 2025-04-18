@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CliWrap" Version="3.8.1" />
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="Discord.Net" Version="3.17.1" />
+    <PackageReference Include="Google.Apis.YouTube.v3" Version="1.69.0.3680" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Playwright" Version="1.49.0" />
+    <PackageReference Include="OpenAI" Version="1.7.2" />
+    <PackageReference Include="System.Formats.Asn1" Version="9.0.1" />
+    <PackageReference Include="System.Text.Json" Version="9.0.2" />
+    <PackageReference Include="YoutubeDLSharp" Version="1.1.1" />
+    <PackageReference Include="YoutubeExplode" Version="6.5.3" />
+    <PackageReference Include="YoutubeExplode.Converter" Version="6.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\dotnet\RavelDev.Spotify\RavelDev.Spotify.csproj" />
+  </ItemGroup>
+
+</Project>
