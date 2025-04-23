@@ -1,19 +1,18 @@
 ﻿using dotenv.net;
 using Google.Apis.Services;
 using Google.Apis.YouTube.v3;
-using Microsoft.Extensions.Configuration;
 using RavelDev.Discord.Bot.Core;
 using RavelDev.Discord.Bot.Core.API;
 using RavelDev.Discord.Bot.Core.Commands.GoogleAi;
 using RavelDev.Discord.Bot.Core.Commands;
 using RavelDev.Discord.Bot.Core.DataAccess;
 using RavelDev.Discord.Bot.Core.Utility.Interfaces;
-using RavelDev.Spotify;
 using YoutubeDLSharp;
 using RavelDev.Discord.Bot.Core.Commands.YouTube;
 using RavelDev.Discord.Bot.Core.Commands.JamCommand.YouTube;
 using Azure.Identity;
 using Azure.Security.KeyVault.Secrets;
+using RavelDev.Spotify;
 
 IDictionary<string, string> envVars;
 envVars = DotEnv.Read();

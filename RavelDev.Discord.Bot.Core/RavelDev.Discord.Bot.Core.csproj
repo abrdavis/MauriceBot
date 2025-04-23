@@ -23,7 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\dotnet\RavelDev.Spotify\RavelDev.Spotify.csproj" />
+    <Reference Include="RavelDev.Spotify">
+      <HintPath>..\externalDlls\RavelDev.Spotify.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
